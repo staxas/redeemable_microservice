@@ -15,7 +15,7 @@ Get all redeemables database entries.
 ##### POST /api/redeemables
 
 Create a redeemable with a unique code. The payload is expected to contain a property named 'assigned_specs' which contains either a string or an array of strings which are the properties to be redeemed (i.e. '50_percent_off' etcetera).
-Also the payload can optionally contain an expiration date in either months, days or hours. Payload should then contain properties (number type) of either 'expiration.month', 'expiration.days' or 'expiration.hours'. Response is the unique code.
+Also the payload can optionally contain an expiration date in either months, days or hours. Payload should then contain a property (number type) of either 'expiration.month', 'expiration.days' or 'expiration.hours'. Response is the unique code.
 
 ##### GET /api/redeemables/{code}
 
