@@ -21,7 +21,7 @@ Also the payload can optionally contain an expiration date in either months, day
 
 ##### GET /api/redeemables/{code}
 
-Search for a specific redeemable code, and if it is available (i.e. not yet redeemed) and not expired, return its *assigned_specs* database entry data (array type). Code is then subsequentially set to *redeemed* in the database, and is from then on no longer redeemable.
+Search for a specific redeemable code, and if it is available (i.e. not yet redeemed) and not expired, return its *assigned_specs* database entry data (array type). Code is then subsequentially set to *redeemed* in the database, and is from then on no longer redeemable. Codes which are found to be expired are set to *expired*.
 
 ##### PATCH /api/redeemables/{code}
 
