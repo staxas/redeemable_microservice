@@ -1,5 +1,5 @@
 # redeemable_microservice
-Microservice for creating and redeeming "redeemables' through use of codes
+Microservice for creating and redeeming "redeemables' through use of codes. Requires MongoDB.
 
 Install dependancies with
 ```bash
