@@ -2,7 +2,9 @@
 Microservice for creating and redeeming "redeemables' through use of codes
 
 Install dependancies with
-##### npm install --save
+```bash
+npm install --save
+```
 
 Server and database URLs and ports: edit config.js accordingly.
 
